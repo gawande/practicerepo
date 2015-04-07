@@ -1,0 +1,2 @@
+
+((:|TITLE| "awesome vol. mix 2" :|ARTIST| "Starlord" :|RATING| 10. :|RIPPED| |COMMON-LISP|::|T|) (:|TITLE| "awesome vol. mix 1" :|ARTIST| "Starlord" :|RATING| 10. :|RIPPED| |COMMON-LISP|::|NIL|) (:|TITLE| "wq" :|ARTIST| "eqwewq" :|RATING| 0. :|RIPPED| |COMMON-LISP|::|T|) (:|TITLE| "hell" :|ARTIST| "1" :|RATING| 2. :|RIPPED| |COMMON-LISP|::|T|)) 

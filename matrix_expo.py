@@ -25,8 +25,11 @@ def matrix_expo_rec(A,n,power):
 		return matrix_mult_naive(A,matrix_mult_naive(matrix_expo_rec(A,n,(power-1)/2),matrix_expo_rec(A,n,(power-1)/2),(n,n),(n,n)),(n,n),(n,n))	
 
 
+def matrix_expo_itr(A,n,power):
+	
+
 if __name__=="__main__":
-	# F_13,F_12
+	# print 13th and 12th fibonacci numbers
 	A_n=matrix_expo_rec([[1,1],[1,0]],2,12)
 	ans=matrix_mult_naive(A_n,[[1],[0]],(2,2),(2,1))
 	print ans[0]
